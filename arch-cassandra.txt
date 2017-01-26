@@ -1,0 +1,8 @@
+1. Install cassandra from aur.
+2. sudo chown -R [user]:users /var/lib/cassandra (replace user with your username)
+3. sudo chown -R [user]:users /var/log/cassandra (replace user with your username)
+4. sudo vim /etc/hosts
+5. add the next line to it (replace hostname with your hostname):
+	127.0.1.1	[hostname].localdomain [hostname]
+   and save it.
+6. start cassandra by typing: cassandra.
